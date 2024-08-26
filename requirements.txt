@@ -66,7 +66,7 @@ platformdirs==4.2.2
 prompt_toolkit==3.0.47
 protobuf==5.27.3
 psutil==6.0.0
-psycopg2==2.9.9
+psycopg2-binary==2.9.9
 pure_eval==0.2.3
 pyarrow==17.0.0
 pydantic==2.8.2
