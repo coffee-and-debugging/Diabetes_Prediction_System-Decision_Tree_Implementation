@@ -18,7 +18,7 @@ def predict_diabetes(pregnancies, glucose, blood_pressure, skin_thickness, insul
 
 st.title("Diabetes Prediction App")
 st.write("Use this app to predict whether you have diabetes based on your input data.")
-st.image("images/diabetes.png", width=700)
+st.image("images/diabetes.png", use_column_width=True)
 
 pregnancies = st.number_input("Pregnancies (max: 17)", min_value=0, max_value=17, value=0)
 glucose = st.number_input("Glucose (max: 250)", min_value=0, max_value=250, value=0)
